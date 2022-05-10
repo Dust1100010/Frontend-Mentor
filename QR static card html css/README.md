@@ -13,7 +13,7 @@ A screenshot of my solution. \o/
 
 ## Built with
 
-HTML
+- HTML
 - Flexbox
 - CSS
 
