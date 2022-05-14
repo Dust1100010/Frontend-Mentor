@@ -9,7 +9,7 @@ A screenshot of my solution. \o/
 ![](./images/ntfcard.png)
 
 
-- Live Site URL: https://qrstaticcard.netlify.app/
+- Live Site URL: https://nftcard-ver1.netlify.app/
 
 
 ## Built with
