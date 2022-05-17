@@ -160,7 +160,7 @@ h3 {
     margin-left: 0.3rem;
 }
 
-.grid__creator h2:hover {
+.grid__creator:hover {
     cursor: pointer;
     color: var(--cyan);
 }
