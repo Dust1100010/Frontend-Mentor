@@ -156,11 +156,13 @@ h3 {
     color: var(--white);
 }
 
+.grid__creator--name:hover {
+    cursor: pointer;
+    color: var(--cyan);
+}
+
 .grid__creator h2 {
     margin-left: 0.3rem;
 }
 
-.grid__creator:hover {
-    cursor: pointer;
-    color: var(--cyan);
-}
+
