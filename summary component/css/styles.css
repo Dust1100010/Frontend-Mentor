@@ -21,6 +21,13 @@ body {
     font-family: var(--fuenteRed);
 }
 
+@media (min-width: 768px) {
+    body {
+        background-image: url(../images/pattern-background-desktop.svg);
+        background-size: 100%;
+    }
+}
+
 *,
 *:before,
 *:after {
@@ -63,6 +70,7 @@ body {
 
 .box__text--header {
     font-size: 2.2rem;
+    font-weight: 900;
     margin-top: 1;
 }
 
@@ -116,6 +124,11 @@ body {
     color: var(--brightBlue);
 }
 
+.change:hover {
+    color: hsl(245, 83%, 68%);
+    ;
+}
+
 .box__music--change:hover {
     cursor: pointer;
 }
@@ -131,6 +144,12 @@ body {
     font-size: 1.5rem;
     font-weight: 900;
     color: white;
+    box-shadow: 0px 20px 20px rgb(56 42 255 / 20%);
+}
+
+.box__boton--payment:hover {
+    transition: background .4s;
+    background-color: hsl(245, 83%, 68%);
 }
 
 .box__boton--order {
@@ -138,9 +157,15 @@ body {
     font-weight: 900;
     color: var(--desaturatedBlue);
     margin: 3rem auto;
+    transition: color .3s;
+}
+
+.box__boton--order:hover {
+    color: var(--darkBlue);
 }
 
 .box__boton--payment,
+.change,
 .box__boton--order:hover {
     cursor: pointer;
 }
@@ -154,5 +179,5 @@ body {
 }
 
 .attribution a {
-    color: hsl(228, 45%, 44%);
+    color: var(--brightBlue);
 }
