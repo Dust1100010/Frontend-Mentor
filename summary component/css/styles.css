@@ -140,6 +140,11 @@ body {
     margin: 3rem auto;
 }
 
+.box__boton--payment,
+.box__boton--order:hover {
+    cursor: pointer;
+}
+
 
 /*atribution*/
 
