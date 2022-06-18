@@ -125,13 +125,8 @@ body {
 }
 
 .change:hover {
-    cursor: pointer;
     color: hsl(245, 83%, 68%);
     ;
-}
-
-.box__music--change:hover {
-    cursor: pointer;
 }
 
 
@@ -149,7 +144,6 @@ body {
 }
 
 .box__boton--payment:hover {
-    cursor: pointer;
     transition: background .4s;
     background-color: hsl(245, 83%, 68%);
 }
