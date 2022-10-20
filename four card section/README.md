@@ -9,7 +9,7 @@ A screenshot of my solution. \o/
 ![](./images/fourcardsection.png)
 
 
-- Live Site URL: https://fourcardsection1-ver1.netlify.app/
+- Live Site URL: https://fourcardsection1.netlify.app/
 
 
 ## Built with
